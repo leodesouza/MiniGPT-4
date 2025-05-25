@@ -4,8 +4,9 @@ model:
   max_txt_len: 160
   end_sym: "###"
   low_resource: True
-  prompt_template: '###Human: {} ###Assistant: '
-  ckpt: 'please set this value to the path of pretrained checkpoint'
+  prompt_template: '###Human: {} ###Assistant: '  
+  llama_model: "/home/swf_developer/storage/checkpoints/vicuna-7b/"
+  ckpt: "/home/swf_developer/storage/checkpoints/minigpt4_stage2/cc_sbu_finetuning_noise_0.pth"
 
 
 datasets:
